@@ -1,0 +1,293 @@
+*{
+     box-sizing: border-box;
+     margin: 0px;
+     padding: 0px;
+}
+body {
+    background: #E5E5E5;
+    font-family: Open Sans;
+}
+.mainContainer{
+    padding-top: 0px;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+.mainContent{
+    overflow: hidden;
+    background: rgba(237, 254, 254, 0.5);
+}
+.homeContent img {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	position: relative;
+	top: -2px;
+	margin-right: 8px;
+}
+.homeContent {
+    display: inline-block;
+    padding-bottom: 55px;
+    margin: 0;
+}
+.formContainer label {
+    font-weight: 700;
+    font-size: 16px;
+    display: block;
+    line-height: 176.19%;
+    color: #333333;
+    font-style: normal;
+}
+.formContainer .input-form{
+	width: 100%;
+	border-radius: 10px;
+	border: none;
+	margin-top: 5px;
+	outline: none;
+	background: rgba(237, 254, 254, 0.5);
+	box-sizing: border-box;
+	position: relative;
+	padding: 10px 0px;
+	overflow: hidden;
+}
+input[type="submit"] {
+    display: block;
+    margin: auto;
+    width: 171px;
+    height: 50px;
+    left: 313px;
+    top: 490px;
+    background: #00BABA;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 176.19%;
+    text-align: center;
+    border: none;
+    color: #FFFFFF;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+form {
+    padding: 58px 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    margin: 0px 106px;
+}
+.formContainer {
+    padding: 0px 56px;
+}
+form h2 {
+    text-transform: capitalize;
+    text-align: center;
+    color: #08827C;
+    font-size: 25px;
+    padding-bottom: 30px;
+    margin: 0;
+    line-height: 176.19%;
+}
+.forget-password {
+    font-style: italic;
+    color: #555555;
+    font-weight: normal;
+    margin-top: 0px;
+    font-size: 16px;
+    line-height: 176.19%;
+    text-align: justify;
+    text-align: right;
+}
+.account {
+    color: #333333;
+    text-align: center;
+    font-weight: normal;
+    line-height: 176.19%;
+    padding-top: 20px;
+    font-size: 16px;
+}
+.account a {
+    color: #FFB11B;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 20px;
+    margin: 0;
+    padding-left: 8px;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+.form-title {
+    width: 45%;
+    float: left;
+    padding-top: 120px;
+    padding-bottom: 140px;
+}
+.loginContainer {
+    width: 55%;
+    float: left;
+    background: #fafafa;
+    padding-top: 37px;
+    padding-bottom: 116px;
+}
+.homeContent{
+    padding-left: 81px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #003333;
+}
+.form-title h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #003333;
+    padding: 0px 79px;
+    line-height: 176.19%;
+    margin: 0;
+}
+img.anh {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 90px;
+}
+.input-form input {
+    width: 100%;
+    height: 23px;
+    border: none;
+    outline: none;
+    text-indent: 10px;
+    text-align: left;
+    background: transparent;
+}
+.help-block{
+	color: red;
+}
+.input-form input:-webkit-autofill {
+    -webkit-background-clip: text;
+}
+.input-form:focus-within {
+    border: 1px solid #00BABA;
+}
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 14px;
+    color: #777777;
+    width: 16px;
+}
+
+/* Reponsive */
+@media only screen and (max-width: 1340px){
+	.form-title h3 {
+	    padding: 0px 18px;
+	}
+}
+@media only screen and (max-width: 1024px){
+    
+	.loginContainer {
+		width: 100%;
+		padding: 0;
+		background: transparent;
+	}
+	.form-title {
+		width: 100%;
+		background: rgba(237, 254, 254, 0.5);
+		padding-top: 100px;
+	}
+	form {
+		margin: 0px 92px;
+	}
+	.formContainer {
+		padding: 0px 56px;
+	}
+	.form-title h3 {
+		padding: 0px 136px;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 28px;
+	}
+	.mainContent {
+		background: rgba(237, 254, 254, 0.5);
+	}
+	.loginContainer{
+		background: rgba(237, 254, 254, 0.5);
+	}
+	.homeContent {
+		padding-top: 20px;
+		padding-left: 26px;
+		padding-bottom: 80px;
+	}
+	img.anh {
+		margin-top: 50px;
+	}
+    /* dangky */
+    .mainContent .registerContainer{
+        width: 100%;
+        padding: 0;
+       /*  background: transparent; */
+        background: red;
+    }
+    .mainContent.title-img{
+    background: #EDFEFE;
+    width: 100%;
+    }
+    .div {
+        margin: 0px 92px;
+    }
+    .content {
+        padding: 0px 56px;
+    }
+    .registerContainer tieude{
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 767px){
+	form {
+		margin: 0px 13px;
+	}
+	.homeContent {
+		padding-left: 13px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.formContainer {
+		padding: 0px 13px;
+	}
+	form {
+		padding-top: 36px;
+		box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+		border-radius: 5px;
+		padding-bottom: 32px;
+	}
+	input[type="submit"] {
+		height: 45px;
+		font-size: 16px;
+		margin-top: 25px;
+	}
+	.account {
+		font-size: 16px;
+	}
+
+	.formContainer .input-form {
+		margin-bottom: 15px;
+	}
+	.form-title {
+		padding-top: 66px;
+		padding-bottom: 190px;
+	}
+	img.anh {
+		margin-top: 30px;
+	}
+	.form-title h3 {
+		padding: 0px 13px;
+		font-size: 25px;
+	}
+}

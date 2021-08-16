@@ -1,0 +1,252 @@
+ .chooseAccount h2{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 176.19%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #003333;
+
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.login_left .chooseAccount{
+   margin: 0px 112px;
+   height: 369px;
+}
+.chooseAccount .contentChoose .accHV{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    margin-top: 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgb(0 0 0 / 5%);
+    border-radius: 15px;
+    outline: none;
+    overflow: hidden;
+    box-sizing: border-box;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 176.19%;
+    text-transform: capitalize;
+    color: #FFB11B;
+    padding: 23px 23px;
+}
+.accHV img {
+   display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: -2px;
+    margin-right: 8px;
+}
+.accGV{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgb(0 0 0 / 5%);
+    border-radius: 15px;
+    outline: none;
+    overflow: hidden;
+    box-sizing: border-box;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 176.19%;
+    text-transform: capitalize;
+    padding: 23px 23px;
+    color: #003333;
+}
+.accGV img {
+   display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: -2px;
+    margin-right: 8px;
+}
+.accTT{
+   position: relative;
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgb(0 0 0 / 5%);
+    border-radius: 15px;
+    outline: none;
+    overflow: hidden;
+    box-sizing: border-box;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 176.19%;
+    text-transform: capitalize;
+    padding: 23px 23px;
+    color: #003333;
+}
+.accTT img {
+   display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: -2px;
+    margin-right: 8px;
+}
+.login_left .chooseAccount .contentChoose{
+    /* width: 585px; */
+    height: 320px;
+    padding: 0px 5px;
+
+}
+.login_leftRegis {
+    background: #E5E5E5;
+    width: 60%;
+    float: left;
+    padding-top: 37px;
+    padding-bottom: 116px;
+    height: 782px;
+}
+.toggleRight{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 14px;
+    color:  #999999;
+    width: 16px;
+  }
+.mainContaintRegis {
+    overflow: hidden;
+    /* background: rgba(237, 254, 254, 0.5); */
+}
+.login_rightRegis {
+    width: 40%;
+    float: right;
+    padding-top: 25px;
+    padding-bottom: 202px;
+    background: rgba(237, 254, 254, 0.5);
+}
+.login_rightRegis .imgRegister{
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 90px;         
+ }
+.titleRegis{
+    padding-left: 81px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #003333;
+    display: inline-block;
+    padding-bottom: 125px;
+    margin: 0;  
+}
+.titleRegis .icon-home {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+    margin-right: 8px;
+}
+/* Reponsive */
+@media only screen and (max-width: 1340px){
+    .login_rightRegis  {
+        padding: 0px 18px;
+    }
+}
+@media only screen and (max-width: 1024px){
+   body{
+        background-color: #EDFEFE;
+    }
+    .login_leftRegis {
+        width: 100%;
+        padding: 0;
+        background-color: #EDFEFE;
+        /* background: rgba(237, 254, 254, 0.5); */
+        /* margin-bottom: -130px; */
+        height: 495px;
+    }
+    .login_rightRegis {
+        width: 100%;
+        background-color: #EDFEFE;
+        /* height: 548px; */
+        /* padding-top: 125px; */
+        /* background: rgba(237, 254, 254, 0.5); */
+
+    }
+    .titleRegis{
+        padding-top: 16px;
+        padding-left: 26px;
+        padding-bottom: 80px;
+   }
+    .login_leftRegis div.chooseAccount{
+        margin: 0px 92px;
+   }
+   .login_rightRegis .imgRegister{
+        max-width: 100%;
+        height: auto; 
+        padding-bottom: 140px;
+        padding-top: 80px;        
+     }
+     .chooseAccount .contentChoose div.acc{
+        font-size: 20px;
+        margin-top: 25px;
+   }
+   .contentChoose{
+        height: 299px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .mainContaintRegis .mainContent .chooseAccount {
+        margin: 0px 13px;
+        height: auto;
+    }
+    .mainContaintRegis .mainContent .titleRegis {
+        padding-left: 13px;
+        padding-top: 26px;
+        padding-bottom: 50px;
+    }
+    .chooseAccount h2{
+        font-size: 20px;
+
+    }
+    .chooseAccount .contentChoose div.acc{
+        height: 60px;
+        font-size: 16px;
+        padding: 14px 23px;
+        margin-top: 30px;
+   }
+   .login_leftRegis{
+       height: auto;
+    }
+    .login_left .chooseAccount .contentChoose{
+        height: auto;
+    }
+    .login_rightRegis .imgRegister{
+        max-width: 100%;
+        height: auto; 
+        padding-bottom: 140px;  
+        padding-top: 0;      
+     }
+}
